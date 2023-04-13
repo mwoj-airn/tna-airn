@@ -268,12 +268,6 @@ function rafCallback(callback) {
   };
 }
 
-const swiper = new Swiper('.swiper.is-slider-main', {
-  effect: 'fade',
-  fadeEffect: {
-    crossFade: true
-  },
-});
 
 $(".works-item:nth-child(1)").on("mouseenter", function () {
   $(".bg-works-item").eq(0).addClass("active");
